@@ -12,4 +12,4 @@ from .models import Contractor
 #     queryset = Contractor.objects.all()
 
 def get_contractors(request):
-    return render(request, 'base.html', {'list': Contractor.objects.all()})
+    return render(request, 'contractorList.html', {'list': Contractor.objects.all()})
